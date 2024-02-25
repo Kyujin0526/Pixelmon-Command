@@ -1,0 +1,74 @@
+options:
+    @: &F[ &cPixelmon &f]
+
+command /개체값 [<text>]:
+    trigger:
+        if arg 1 is not set:
+            send "{@@} &C슬롯을 정해주세요."
+            stop
+        if arg 1 is "1":
+            make player run command "ivs 1" as op
+            stop
+        if arg 1 is "2:
+            make player run command "ivs 2" as op
+            stop
+        if arg 1 is "3":
+            make player run command "ivs 3" as op
+            stop
+        if arg 1 is "4:
+            make player run command "ivs 4" as op
+            stop
+        if arg 1 is "5":
+            make player run command "ivs 5" as op
+            stop
+        if arg 1 is "6:
+            make player run command "ivs 6" as op
+            stop
+
+command /노력치 [<text>]:
+    trigger:
+        if arg 1 is not set:
+            send "{@@} &C슬롯을 정해주세요."
+            stop
+        if arg 1 is "1":
+            make player run command "evs 1" as op
+            stop
+        if arg 1 is "2:
+            make player run command "evs 2" as op
+            stop
+        if arg 1 is "3":
+            make player run command "evs 3" as op
+            stop
+        if arg 1 is "4:
+            make player run command "evs 4" as op
+            stop
+        if arg 1 is "5":
+            make player run command "evs 5" as op
+            stop
+        if arg 1 is "6:
+            make player run command "evs 6" as op
+            stop
+
+command /노력치 [<text>]:
+    trigger:
+        if arg 1 is not set:
+            send "{@@} &C슬롯을 정해주세요."
+            stop
+        if arg 1 is "1":
+            make player run command "evs 1" as op
+            stop
+        if arg 1 is "2:
+            make player run command "evs 2" as op
+            stop
+        if arg 1 is "3":
+            make player run command "evs 3" as op
+            stop
+        if arg 1 is "4:
+            make player run command "evs 4" as op
+            stop
+        if arg 1 is "5":
+            make player run command "evs 5" as op
+            stop
+        if arg 1 is "6:
+            make player run command "evs 6" as op
+            stop
